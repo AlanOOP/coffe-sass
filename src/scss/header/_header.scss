@@ -1,0 +1,11 @@
+@use '../base/variables' as v;
+
+.header {
+    padding: 5rem 0;
+
+    .header-content {
+        background-image: url('./assets/img/header_inicio.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
