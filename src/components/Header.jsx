@@ -4,13 +4,13 @@ import imgHeader from '../assets/img/header_inicio.jpg'
 
 const Header = () => {
     return (
-        <header className='header'>
+        <header className='header header-home'>
             <div className="header-content container">
                 <div className="navbar">
                     <div className="logo">
-                        <img src={logo} alt="Logo Cafetería" />
+                        <img src={logo} alt="Logo Cafetería" loading='lazy' />
                     </div>
-                    <div className="nav-main">
+                    <div className="nav-list">
                         <a href="">Inicio</a>
                         <a href="">Nosotros</a>
                         <a href="">Proceso</a>
@@ -20,7 +20,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="header-text">
-                    <h1>Disfruta una Deliciosa taza de café</h1>
+                    <h1>Disfruta una deliciosa taza de café</h1>
                 </div>
             </div>
         </header>
