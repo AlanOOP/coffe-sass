@@ -1,0 +1,20 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.content-main {
+    background-color: v.$white;
+    padding: 2rem;
+
+    // shadow
+
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+
+    @include m.tablet {
+        padding: 10rem;
+        margin-top: -10rem;
+        position: relative;
+    }
+
+    
+}

@@ -3,10 +3,24 @@
 
 .header {
     padding: 5rem 0;
-    color: v.$white;
     position: relative;
 
+    @include m.tablet {
+        min-height: 70rem;
+    }
 
+    .header-content {
+        h1 {
+            text-align: center;
+            color: v.$white;
+            text-transform: uppercase;
+            margin-top: 5rem;
+
+            @include m.tablet {
+                margin-top: 10rem;
+            }
+        }
+    }
 }
 
 .header-home {

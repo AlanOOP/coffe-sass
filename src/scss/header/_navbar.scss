@@ -16,9 +16,47 @@
         margin: 0 auto;
 
         @include m.tablet {
-            width: 20rem;
+            width: 15rem;
             margin: 0;
         }
     }
 
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 4rem;
+
+    @include m.tablet {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    a {
+        text-align: center;
+        color: v.$white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+
+        @include m.tablet {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            color: v.$secondary;
+            // scale transormr transition .3s
+            transform: scale(1.1);
+            transition-duration: .3s;
+        }
+
+        &.activo {
+            color: v.$secondary;
+        }
+    }
 }

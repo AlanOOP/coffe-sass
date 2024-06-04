@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="logo">
                         <img src={logo} alt="Logo Cafetería" loading='lazy' />
                     </div>
-                    <div className="nav-list">
+                    <div className="nav-items">
                         <a href="">Inicio</a>
                         <a href="">Nosotros</a>
                         <a href="">Proceso</a>
