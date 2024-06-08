@@ -1,6 +1,9 @@
+import Galery from './Galery';
+
 import iconCafe from '../assets/img/icono_cafe.svg';
 import iconPostre from '../assets/img/icono_postre.svg';
 import iconTe from '../assets/img/icono_te.svg';
+
 
 
 const AboutMe = () => {
@@ -35,6 +38,8 @@ const AboutMe = () => {
                     </li>
                 </ul>
             </section>
+
+            <Galery />
         </main>
     )
 }

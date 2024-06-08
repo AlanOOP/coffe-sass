@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: v.$font-primary;
+    font-family: v.$font-secondary;
     font-size: 1.6rem;
     background-color: v.$brown;
 }
@@ -41,3 +41,7 @@ img {
     display: block;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
